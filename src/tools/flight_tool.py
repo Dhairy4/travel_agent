@@ -148,7 +148,7 @@ def country_name_to_code(text: str):
 
     # Detect country name inside longer text
     for country in pycountry.countries:
-        print(country.name.lower())
+        # print(country.name.lower())
         country_name = country.name.lower()
         if country_name in text:
             return country.alpha_2

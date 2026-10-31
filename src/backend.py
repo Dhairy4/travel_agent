@@ -50,7 +50,7 @@ if not NVIDIA_API_KEY:
 #---- LLM -----
 
 llm = ChatNVIDIA(
-    model = "nvidia/nemotron-3.5-bolt-e4b",
+    model = "nvidia/nemotron-3-ultra-550b-a55b",
 )
 
 #---- State -----

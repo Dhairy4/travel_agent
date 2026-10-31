@@ -26,8 +26,8 @@ def tavily_search(query: str):
     result = []
 
     for i, r in enumerate(response["results"], start=1):
-        title = r.get("title", "unknown"),
-        url = r.get("url", ""),
+        title = r.get("title", "unknown")
+        url = r.get("url", "")
         snippet = r.get("content", "").strip()
         # keep only the first 300 characters of the snippet
 
